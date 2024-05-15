@@ -35,3 +35,12 @@ CREATE VIEW sample AS
 SELECT ename, empno
 FROM EMP
 WHERE ename="smith";
+
+-- stored procedures
+delimiter &&
+CREATE PROCEDURE get_details()
+BEGIN
+	select * from EMP;
+    select * from DEPT;
+END &&
+
