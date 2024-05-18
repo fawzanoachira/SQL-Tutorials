@@ -1,0 +1,30 @@
+Normalization
+-------------
+It is the process reducing larger table into smaller tables in order to remove redundancy and anomalies by identifying thier functional dependencies
+It is the process of reducing a large table into small tables is called as normalization
+
+What is normal form?
+A table without redundancies and anomalies are said to be in normal form
+
+Types of Normalization
+1. First normal form 1nf
+2. second normal form 2nf
+3. 3rd normal form -3nf
+4. boyce codd normal form bcnf
+
+main problems
+1. more memory
+2. more access time
+3. data inconsistency
+4. anomalies
+    1. insertion anomalies
+    2. updation anomalies
+    3. deletion anomalies
+    
+SET operations
+--------------
+
+	1. Union
+	2. Union all
+	3. Intersect --NOT SUPPORTED ON MYSQL
+	4. except --NOT SUPPORTED ON MYSQL
